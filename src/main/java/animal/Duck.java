@@ -7,8 +7,8 @@ public class Duck extends Bird{
 	{
 		return Constants.DUCK_SOUND;
 	}
-	public void swim()
+	public String swim()
 	{
-		System.out.println("I can swim");
+		return Constants.SWIM;
 	}
 }

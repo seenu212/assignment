@@ -7,6 +7,11 @@ public class Shark extends Fish {
 		this.setSize(size);
 		
 	}
+	public Shark() {
+		this.setColor(Color.GREY);
+		this.setSize(Size.LARGE);
+		
+	}
 	@Override
 	String eat() {
 		return(Constants.SHARK_EATS);

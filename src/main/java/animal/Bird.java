@@ -6,7 +6,7 @@ class Bird implements Animal {
 		return Constants.WALK;
 	}
 	 public String fly() {
-	 return ("I am flying");
+	 return Constants.FLY;
 	 }
 	 
 	 public String sing()
@@ -14,4 +14,8 @@ class Bird implements Animal {
 		 return Constants.GENERIC_SOUND;
 		 
 	 }
+	 public String swim() {
+		//subclass will implement
+		return null;
+	}
 	}

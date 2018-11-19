@@ -14,6 +14,10 @@ public class Butterfly implements Animal{
 		public String sing() {
 			return "Insect Sound";//can sound
 		}
+		public String swim() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 	}
 	
 	private class ButterflyStage implements Animal
@@ -27,6 +31,10 @@ public class Butterfly implements Animal{
 		}
 		public String sing() {
 			return null;//cannot sound
+		}
+		public String swim() {
+			// TODO Auto-generated method stub
+			return null;
 		}
 		
 	}
@@ -45,5 +53,10 @@ public class Butterfly implements Animal{
 	{
 		return this.stage.sing();
 	}
+	public String swim() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	void transform() {this.stage = new ButterflyStage();}
 }

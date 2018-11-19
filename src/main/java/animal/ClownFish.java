@@ -6,6 +6,11 @@ public class ClownFish extends Fish{
 		this.setSize(size);
 		
 	}
+	public ClownFish() {
+		this.setColor(Color.ORANGE);
+		this.setSize(Size.SMALL);
+		
+	}
 @Override
 String eat() {
 	return null;
