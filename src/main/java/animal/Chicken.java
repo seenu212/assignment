@@ -12,6 +12,11 @@ public class Chicken extends Bird {
 	{
 		this.gender = gender;
 	}
+	/*Default to female*/
+	public Chicken()
+	{
+		this.gender = GenderOption.FEMALE;
+	}
 	
 	@Override
 	public String sing()
@@ -22,8 +27,8 @@ public class Chicken extends Bird {
 			return Constants.CHICKEN_SOUND;
 	}
 	@Override
-	 void fly() {
-		 System.out.println("I cannot fly");
+	 public String fly() {
+		 return("I cannot fly");
 		 }
 	
 }

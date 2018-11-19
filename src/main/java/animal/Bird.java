@@ -1,8 +1,12 @@
 package animal;
 
-class Bird extends Animal {
-	 void fly() {
-	 System.out.println("I am flying");
+class Bird implements Animal {
+	public String walk() {
+		
+		return Constants.WALK;
+	}
+	 public String fly() {
+	 return ("I am flying");
 	 }
 	 
 	 public String sing()

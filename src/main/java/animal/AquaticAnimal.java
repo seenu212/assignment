@@ -1,12 +1,19 @@
 package animal;
 
 
-public class AquaticAnimal extends Animal {
+public class AquaticAnimal implements Animal {
 	
-	
-@Override
+public String sing() {
+			// cannot sing
+			return null;
+		}	
+public String fly() {
+		//cannot fly
+		return null;
+	}
 public String walk() {
-	return "cannot walk";
+	//cannot walk
+	return null;
 }
 
 

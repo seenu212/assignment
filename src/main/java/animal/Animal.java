@@ -1,8 +1,7 @@
 package animal;
 
-public class Animal implements Walkable{
-	public String walk(){
-		
-		return Constants.WALK;
-		 }
+public interface Animal {
+	String walk();
+	String fly();
+	String sing();
 }

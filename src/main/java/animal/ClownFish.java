@@ -13,6 +13,6 @@ String eat() {
 }
 String joke()
 {
-	return("I make joking");
+	return("I am joking");
 }
 }
