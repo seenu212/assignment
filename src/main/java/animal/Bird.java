@@ -1,6 +1,6 @@
 package animal;
 
-class Bird implements Animal {
+public class Bird implements Animal {
 	public String walk() {
 		
 		return Constants.WALK;

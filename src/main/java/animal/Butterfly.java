@@ -58,5 +58,5 @@ public class Butterfly implements Animal{
 		return null;
 	}
 	
-	void transform() {this.stage = new ButterflyStage();}
+	public void transform() {this.stage = new ButterflyStage();}
 }
