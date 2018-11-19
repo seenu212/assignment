@@ -3,9 +3,9 @@ package animal;
 public class Dolphin extends AquaticAnimal {
 	
 	@Override
-	public void swim() {
+	public String swim() {
 		super.swim();
-		System.out.println("I am a great Swimmer");
+		return (super.swim() + "I am a great Swimmer");
 	}
 
 }

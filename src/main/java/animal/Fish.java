@@ -2,6 +2,6 @@ package animal;
 
 public abstract class  Fish extends AquaticAnimal {
 	
-	abstract void eat();
+	abstract String eat();
 	
 }

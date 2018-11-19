@@ -8,8 +8,8 @@ public class Shark extends Fish {
 		
 	}
 	@Override
-	void eat() {
-		System.out.println(Constants.SHARK_EATS);
+	String eat() {
+		return(Constants.SHARK_EATS);
 		
 	}
 

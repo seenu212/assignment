@@ -5,8 +5,8 @@ public class AquaticAnimal extends Animal {
 	
 	
 @Override
-public void walk() {
-	System.out.println("cannot walk");
+public String walk() {
+	return "cannot walk";
 }
 
 
@@ -21,9 +21,9 @@ public void walk() {
 	{
 		GREY,ORANGE;
 	}
-	public void swim()
+	public String swim()
 	{
-		System.out.println("I am swimming");
+		return Constants.SWIM;
 	}
 	
 	public Size getSize() {

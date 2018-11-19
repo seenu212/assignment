@@ -15,5 +15,7 @@ public final class Constants {
 		
 	/* Generic */
 	public static final String GENERIC_SOUND= "I am Singing";
+	public static final String WALK= "I am walking";
+	public static final String SWIM= "I am swimming";
 
 }

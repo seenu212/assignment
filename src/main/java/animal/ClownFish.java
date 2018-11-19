@@ -7,12 +7,12 @@ public class ClownFish extends Fish{
 		
 	}
 @Override
-void eat() {
-	// Implement clown eat
+String eat() {
+	return null;
 	
 }
-void joke()
+String joke()
 {
-	System.out.println("I make jokes");
+	return("I make joking");
 }
 }
