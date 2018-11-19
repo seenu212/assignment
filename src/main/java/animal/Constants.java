@@ -9,7 +9,10 @@ public final class Constants {
 	public static final String CAT_SOUND= "Meow";
 	public static final String PARROT_SOUND= "Parrot sound";
 	
+	/* Eating Constants */
+	public static final String SHARK_EATS ="Other Fish";
 	
+		
 	/* Generic */
 	public static final String GENERIC_SOUND= "I am Singing";
 
